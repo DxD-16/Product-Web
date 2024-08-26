@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/adaptation.css">
+</head>
+<body>
+    <header class="container">
+        <div class="head-logo">
+            <img src="./images/logo.svg" alt="logo">
+            <h2>Product</h2>
+        </div>
+        <div class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./product.html">Product</a></li>
+                <li class="nav-item"><a href="./customers.html">Customers</a></li>
+                <li class="nav-item"><a href="./pricing.html">Pricing</a></li>
+                <li class="nav-item"><a href="./resources.html">Resources</a></li>
+            </ul>
+            <div class="nav-list__btns">
+                <button class="head-sign-in__btn" id="open-popup-SIn">Sign In</button>
+                <button class="head-sign-up__btn" id="open-popup-SUp">Sign Up</button>
+                <button class="dark-theme-btn">
+                    <img src="./images/darkmode-logo.svg" alt="dark_theme_logo">
+                </button>
+
+                <!-- SIGN IN -->
+
+                <div class="pop-up" id="SIn-pop-up">
+                    <div class="sign-in-pop-up-container">
+                        <div class="pop-up-body">
+                            <div class="pop-up-body__title">
+                                <div class="pop-up-main-title">
+                                    <h2>SIGN IN</h2>
+                                </div>
+                                <div class="close-popup" id="close-popup-SIn">
+                                    <p>&#10006</p>
+                                </div>
+                            </div>
+                            
+                            <form action="" class="registration">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <div class="remember-forgot">
+                                    <div class="remember-me">
+                                        <input type="checkbox">
+                                        <label for="remember">Remember me</label>
+                                    </div>       
+                                    <a href="#">Forgot password?</a>
+                                </div>
+                                <button>Sign In</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- SIGN UP -->
+
+                <div class="pop-up" id="SUp-pop-up">
+                    <div class="sign-in-pop-up-container">
+                        <div class="pop-up-body">
+                            <div class="pop-up-body__title">
+                                <div class="pop-up-main-title">
+                                    <h2>SIGN UP</h2>
+                                </div>
+                                <div class="close-popup" id="close-popup-SUp">
+                                    <p>&#10006</p>
+                                </div>
+                            </div>
+                            
+                            <form action="" class="registration">
+                                <input type="email" placeholder="Email">
+                                <input type="password" placeholder="Password">
+                                <div class="remember-forgot">
+                                    <div class="remember-me">
+                                        <input type="checkbox">
+                                        <label for="remember">Remember me</label>
+                                    </div>       
+                                    <a href="#">Forgot password?</a>
+                                </div>
+                                <button>Sign Up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        
+        
+        <div class="our-clients">
+            <div class="our-clients__title">
+                <h3>Our Clients</h3>
+            </div>
+            <div class="our-clients__logos">
+                <img src="./images/AirbnbLogo.svg" alt="airbnb-logo">
+                <img src="./images/GoogleLogo.svg" alt="airbnb-logo">
+                <img src="./images/MicrosoftLogo.svg" alt="airbnb-logo">
+                <img src="./images/FedExLogo.svg" alt="airbnb-logo">
+            </div>
+        </div>
+
+        <div class="gray-bg">
+            <div class="why-choose container">
+                <div class="why-choose__title">
+                    <h3>Why Choose Product?</h3>
+                </div>
+                <div class="choose-options">
+                    <div class="choose-options__item">
+                        <div class="logo-cursor">
+                            <img src="./images/cursor.svg" alt="cursor" class="feature-logo">
+                        </div>
+                        <h3>Special Business</h3>
+                        <p>
+                            Product helps you see how many<br>
+                            more days you need to work<br>
+                            to reach your financial goal<br>
+                            for the month and year.
+                        </p>
+                    </div>
+
+                    <div class="choose-options__item">
+                        <div class="logo-snake">
+                            <img src="./images/snake.svg" alt="snake" class="feature-logo">
+                        </div>
+                        <h3>Instant Result</h3>
+                        <p>
+                            Product helps you see how many<br>
+                            more days you need to work<br>
+                            to reach your financial goal<br>
+                            for the month and year.
+                        </p>
+                    </div>
+
+                    <div class="choose-options__item">
+                        <div class="logo-heart">
+                            <img src="./images/heart.svg" alt="heart" class="feature-logo">
+                        </div>
+                        <h3>Fastest way to organize</h3>
+                        <p>
+                            Product helps you see how many<br>
+                            more days you need to work<br>
+                            to reach your financial goal<br>
+                            for the month and year.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="how-work container">
+            <h3 class="how-work__title">
+                How Product Works?
+            </h3>
+
+            <div class="steps-box">
+
+                <!-- 1 -->
+                <div class="steps__item">
+                    <img src="./images/mac1.svg" alt="step1">
+                    <div class="steps-text">
+                        <h4>Step 1</h4>
+                        <h3>Apply for a product</h3>
+                        <p>
+                            Completing our easy step-by-step application form<br>
+                            gives you access to multiple business with multiple<br>
+                            products. We analyse your business through our<br>
+                            proprietary credit analysis technology 
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- 2 -->
+                <div class="steps__item">
+                    <div class="steps-text">
+                        <h4>Step 2</h4>
+                        <h3>Pay fully refundable</h3>
+                        <p>
+                            Product will contactting you instantly to receive<br>
+                            payment of the Application Fee. if no offer of product is<br>
+                            available, your fee will be fully refunded. 
+                        </p>
+                    </div>
+                    <img src="./images/mac2.svg" alt="step2">
+                </div>
+
+
+                <!-- 3 -->
+                <div class="steps__item">
+                    <img src="./images/mac3.svg" alt="step3">
+                    <div class="steps-text">
+                        <h4>Step 3</h4>
+                        <h3>Completion</h3>
+                        <p>
+                            Product will continue to liase between borrower and<br>
+                            manager to procees and complete a quick and<br>
+                            efficient settlement
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <button class="how-work-btn">Get in touch with us</button>
+        </div>
+
+
+        <div class="gray-bg">
+            <div class="received-offer container">
+                <h2 class="how-work__title">
+                    Join thousand of other who have<br>
+                    already received offers
+                </h2>
+                <div class="received-offer__items-box">
+                    <!-- 1 -->
+                    <div class="received-offer__item">
+                        <img src="./images/red-offer.svg" alt="offer1">
+                        <h3>Business</h3>
+                        <ul>
+                            <li>Cash Flow</li>
+                            <li>Asset Backed</li>
+                            <li>Receivables Finance</li>
+                        </ul>
+                        <p>Find the best business product</p>
+                    </div>
+    
+                    <!-- 2 -->
+                    <div class="received-offer__item">
+                        <img src="./images/blue-offer.svg" alt="offer2">
+                        <h3>Enterprise</h3>
+                        <ul>
+                            <li>Site Acquisition</li>
+                            <li>Bridge</li>
+                            <li>Development Financing</li>
+                        </ul>
+                        <p>Find the best business product</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+        <div class="join-banner">
+            <div class="join-table">
+                <div class="join-table__title">
+                    <h2>
+                        Join 100 Compannies who<br>
+                        boost their business with<br>
+                        Product
+                    </h2>
+                    <button>
+                        Get This
+                    </button>
+                </div>
+                <img src="./images/join-banner-img.svg" alt="join-banner">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-text container">
+            <div class="footer-logo-column">
+                <div class="head-logo">
+                    <img src="./images/logo.svg" alt="logo">
+                    <h2>Product</h2>
+                </div>
+                <div class="social-logos-box">
+                    <a href="https://www.instagram.com/" target="_blank" class="social-logos">
+                        <img src="./images/instagram-logo.svg" alt="instagram">
+                    </a>
+                    <a href="https://m.facebook.com" target="_blank" class="social-logos">
+                        <img src="./images/facebook-logo.svg" alt="facebook">
+                    </a>
+                    <a href="https://twitter.com/?lang=ru" target="_blank" class="social-logos">
+                        <img src="./images/twitter-logo.svg" alt="twitter">
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li class="footer-list-item"><h3>Resource</h3></li>
+                <li class="footer-list-item"><p>About Us</p></li>
+                <li class="footer-list-item"><p>Blog</p></li>
+                <li class="footer-list-item"><p>Contact</p></li>
+                <li class="footer-list-item"><p>FAQ</p></li>
+            </ul>
+
+            <ul class="footer-list">
+                <li class="footer-list-item"><h3>Legal Stuff</h3></li>
+                <li class="footer-list-item"><p>Disclaimer</p></li>
+                <li class="footer-list-item"><p>Financing</p></li>
+                <li class="footer-list-item"><p>Privacy Policy</p></li>
+                <li class="footer-list-item"><p>Terms of Service</p></li>
+            </ul>
+
+            <div class="form">
+                <h3>
+                    Knowing you're always on<br>
+                    the best energy deal. 
+                </h3>
+                <input type="email">
+                <button>Sign up Now</button>
+            </div>
+        </div>
+        <div class="footer-subtitle">
+            <p>
+                Made With Love By Figmaland All Right Reserved
+            </p>
+        </div>
+    </footer>
+    <script src="./scripts/pop-up.js"></script>
+    <script src="./scripts/darkmode.js"></script>
+</body>
+</html>

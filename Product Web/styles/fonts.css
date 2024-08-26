@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "poppinsBold";
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "poppinsNormal";
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "poppinsRegular";
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "poppinsThin";
+    src: url(../fonts/Poppins-Thin.ttf);
+    font-weight: 300;
+}
